@@ -50,7 +50,7 @@ const userInfo = ref({
                         type="checkbox"
                         name="hobbies"
                         v-model="userInfo.hobbies"
-                        value="reading"
+                        value="coding"
                     />코딩</label
                 >
                 <label
@@ -58,7 +58,7 @@ const userInfo = ref({
                         type="checkbox"
                         name="hobbies"
                         v-model="userInfo.hobbies"
-                        value="sports"
+                        value="movies"
                     />영화</label
                 >
                 <label
@@ -66,7 +66,7 @@ const userInfo = ref({
                         type="checkbox"
                         name="hobbies"
                         v-model="userInfo.hobbies"
-                        value="music"
+                        value="gaming"
                     />게임</label
                 >
             </div>
